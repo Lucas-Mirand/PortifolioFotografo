@@ -1,0 +1,158 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#boas-vindas {
+    background: #e0e0e0;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#boas-vindas h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+#boas-vindas p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#sobre {
+    padding: 50px 0;
+    background: #fff;
+    text-align: center;
+}
+
+#sobre h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+
+#portfolio {
+    padding: 50px 0;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+#portfolio h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.galeria {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.galeria img {
+    width: 45%;
+    margin-bottom: 20px;
+}
+
+
+#depoimentos {
+    padding: 50px 0;
+    background: #fff;
+    text-align: center;
+}
+
+#depoimentos h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+blockquote {
+    font-size: 18px;
+    font-style: italic;
+    margin: 20px 0;
+    padding: 10px;
+    border-left: 4px solid #333;
+}
+
+
+#contato {
+    padding: 50px 0;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+#contato h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+
+form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}

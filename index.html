@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clara Martinez - Fotógrafa de Casamentos e Eventos</title>
+    <link rel="stylesheet" href="portifolio.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#depoimentos">Depoimentos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="boas-vindas">
+        <div class="container">
+            <h1>Bem-vindo ao portfólio de Clara Martinez</h1>
+            <p>Com mais de 10 anos de experiência, Clara é especializada em capturar momentos únicos de casamentos e eventos, criando memórias que duram para sempre.</p>
+        </div>
+    </section>
+
+    <section id="sobre">
+        <div class="container">
+            <h2>Sobre Clara</h2>
+            <p>Clara Martinez é uma fotógrafa apaixonada pela arte de capturar emoções autênticas. Com uma abordagem discreta e profissional, ela sabe como fazer cada momento ser inesquecível.</p>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="container">
+            <h2>Portfólio</h2>
+            <div class="galeria">
+                <img src="eventos1 (5).jpg" alt="Casamento 1">
+                <img src="eventos1 (1).jpg" alt="Evento 1">
+                <img src="eventos1 (6).jpg" alt="Casamento 2">
+                <img src="eventos1 (2).jpg" alt="Evento 2">
+            </div>
+        </div>
+    </section>
+
+    <section id="depoimentos">
+        <div class="container">
+            <h2>Depoimentos</h2>
+            <blockquote>
+                <p>"Clara fez nosso casamento ainda mais especial! As fotos ficaram maravilhosas e capturaram toda a essência do dia." - Ana & João</p>
+            </blockquote>
+            <blockquote>
+                <p>"Uma fotógrafa incrível! Super profissional e atenta aos detalhes. Recomendamos muito." - Maria & Paulo</p>
+            </blockquote>
+        </div>
+    </section>
+
+    <section id="contato">
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            <form action="enviar_formulario.php" method="POST">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Clara Martinez | Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
